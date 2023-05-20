@@ -8,7 +8,7 @@ header {
 }
 
 .caja{
-    width: 940px;
+    width: 90%;
     position: relative;
     margin: 0 auto;
 }
@@ -98,6 +98,19 @@ footer{
     padding:40px;
 }
 
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-contacto{
+    text-align: left;
+}
+
+i{
+    margin-right: 20px;
+}
+
 .copyright{
     color:#000000;
     font-size: 13px;
@@ -175,6 +188,8 @@ td,th{
 .banner--container{
     position: relative;
     display: inline-block;
+    width: 100%;
+    box-sizing: content-box;
 }
 .banner{
     width: 100%;
@@ -185,6 +200,7 @@ td,th{
     background: #FEFEFE;
     width: 940px;
     margin: 0 auto; 
+
 }
 
 .titulo-principal{
@@ -201,6 +217,8 @@ td,th{
     transform: translate(-50%, -50%);
     font-size: 4rem;
     color:#231F20;
+    font-weight: bolder;
+    
 }
 
 .principal p{
@@ -304,17 +322,12 @@ td,th{
         width: auto;
     }
     .lista-diferenciales, .imagen-diferenciales{
-        width: 100%;
+        width: 90%;
     }
 
-    .productos .hijos{
-        display: flex;
-        text-align: center;
-        width: 100%;
-        
+    .bienvendia {
+        font-size: 3.5rem;
     }
-
-
 
 }
 
